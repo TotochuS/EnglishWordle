@@ -1,2 +1,2 @@
-"python path" -m venv .venv PS 
+"python path" -m venv .venv
 ./venv/Scripts/activate
