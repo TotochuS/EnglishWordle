@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LexiForge — English Wordle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+
+  <!-- ══════════ HEADER ══════════ -->
+  <header class="header">
+    <div class="header-left">
+      <span class="logo-icon">⬡</span>
+      <span class="logo-text">LexiForge</span>
+    </div>
+    <div class="header-center">
+      <span class="tagline">English Word Builder</span>
+    </div>
+    <div class="header-right">
+      <!-- Vies -->
+      <div class="lives-container" id="lives-display">
+        <span class="life-icon active" id="life-1">♥</span>
+        <span class="life-icon active" id="life-2">♥</span>
+        <span class="life-icon active" id="life-3">♥</span>
+      </div>
+      <!-- Score -->
+      <div class="score-container">
+        <span class="score-label">SCORE</span>
+        <span class="score-value" id="score-display">0</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ══════════ MESSAGES D'ÉTAT ══════════ -->
+  <div class="status-bar" id="status-bar">
+    <span id="status-message">Loading your first word…</span>
+  </div>
+
+  <!-- ══════════ ZONE DE JEU ══════════ -->
+  <main class="game-area">
+
+    <!-- Bouton Indice -->
+    <div class="hint-zone">
+      <button class="btn-hint" id="btn-hint" onclick="requestHint()">
+        <span class="hint-icon">💡</span> Hint
+        <span class="hint-badge">FREE</span>
+      </button>
+      <div class="hint-text" id="hint-text"></div>
+    </div>
+
+    <!-- Grille de jeu (générée dynamiquement) -->
+    <div class="grid-wrapper">
+      <div class="grid" id="game-grid"></div>
+    </div>
+
+    <!-- Clavier virtuel -->
+    <div class="keyboard" id="keyboard">
+      <!-- Rangée 1 -->
+      <div class="keyboard-row">
+        <button class="key" data-key="Q">Q</button>
+        <button class="key" data-key="W">W</button>
+        <button class="key" data-key="E">E</button>
+        <button class="key" data-key="R">R</button>
+        <button class="key" data-key="T">T</button>
+        <button class="key" data-key="Y">Y</button>
+        <button class="key" data-key="U">U</button>
+        <button class="key" data-key="I">I</button>
+        <button class="key" data-key="O">O</button>
+        <button class="key" data-key="P">P</button>
+      </div>
+      <!-- Rangée 2 -->
+      <div class="keyboard-row">
+        <button class="key" data-key="A">A</button>
+        <button class="key" data-key="S">S</button>
+        <button class="key" data-key="D">D</button>
+        <button class="key" data-key="F">F</button>
+        <button class="key" data-key="G">G</button>
+        <button class="key" data-key="H">H</button>
+        <button class="key" data-key="J">J</button>
+        <button class="key" data-key="K">K</button>
+        <button class="key" data-key="L">L</button>
+      </div>
+      <!-- Rangée 3 -->
+      <div class="keyboard-row">
+        <button class="key key-wide" data-key="ENTER">ENTER</button>
+        <button class="key" data-key="Z">Z</button>
+        <button class="key" data-key="X">X</button>
+        <button class="key" data-key="C">C</button>
+        <button class="key" data-key="V">V</button>
+        <button class="key" data-key="B">B</button>
+        <button class="key" data-key="N">N</button>
+        <button class="key" data-key="M">M</button>
+        <button class="key key-wide" data-key="BACKSPACE">⌫</button>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ══════════ MODALE ÉDUCATIVE ══════════ -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal" id="modal">
+      <div class="modal-result" id="modal-result-icon"></div>
+      <h2 class="modal-word" id="modal-word"></h2>
+      <div class="modal-section">
+        <span class="modal-label">📖 Definition</span>
+        <p class="modal-text" id="modal-definition"></p>
+      </div>
+      <div class="modal-section">
+        <span class="modal-label">✨ Fun Fact</span>
+        <p class="modal-text" id="modal-funfact"></p>
+      </div>
+      <div class="modal-score-earned" id="modal-score-earned"></div>
+      <button class="btn-next" id="btn-next" onclick="nextWord()">
+        Next Word →
+      </button>
+    </div>
+  </div>
+
+  <!-- ══════════ MODALE GAME OVER ══════════ -->
+  <div class="modal-overlay" id="gameover-overlay">
+    <div class="modal modal-gameover">
+      <div class="gameover-icon">💀</div>
+      <h2 class="gameover-title">GAME OVER</h2>
+      <p class="gameover-sub">You ran out of lives</p>
+      <div class="gameover-score">
+        Final Score: <span id="final-score">0</span>
+      </div>
+      <button class="btn-next" onclick="restartGame()">
+        Play Again ↺
+      </button>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
