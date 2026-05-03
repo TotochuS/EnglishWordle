@@ -1,92 +1,331 @@
 [
   {
-    "word": "LINGER",
-    "definition": "To stay in a place longer than necessary, typically because of a reluctance to leave.",
-    "fun_fact": "Often used to describe a pleasant smell or feeling that stays around: 'The smell of fresh bread lingered in the kitchen.'",
-    "hint": "What you do when you don't want to leave a place — you hang around."
+    "word": "CAT",
+    "level": "A1",
+    "definition": "A small domesticated carnivorous mammal with soft fur, a short snout, and retractable claws.",
+    "fun_fact": "Cats sleep between 12 and 16 hours a day — more than almost any other mammal. They are one of the most popular pets in the world.",
+    "hint": "A furry pet that says 'meow' and loves chasing mice."
   },
   {
-    "word": "FATHOM",
-    "definition": "To understand (a difficult problem or situation) after much thought. Also a unit of depth equal to 6 feet, used in measuring water.",
-    "fun_fact": "Originally a nautical term for measuring sea depth — sailors would use their outstretched arms (a 'fathom') to measure rope. Now it's common to say 'I can't fathom it!' meaning you can't understand something.",
-    "hint": "A sailor might measure depth with this word — or a philosopher might struggle to do this with a mystery."
+    "word": "DOG",
+    "level": "A1",
+    "definition": "A domesticated carnivorous mammal that has a long snout, an acute sense of smell, and is kept as a pet or for work.",
+    "fun_fact": "Dogs have been domesticated for at least 15,000 years — longer than any other animal. Their sense of smell is 10,000 to 100,000 times stronger than humans.",
+    "hint": "Man's best friend — loyal, barks, and loves fetch."
   },
   {
-    "word": "BLUNDER",
-    "definition": "A stupid or careless mistake, often made due to lack of attention or poor judgment.",
-    "fun_fact": "In chess, a 'blunder' is one of the worst moves a player can make, often losing a major piece. Chess engines will call your move a blunder if it costs you significant advantage!",
-    "hint": "Think of a clumsy person tripping and knocking everything over — that's a big one of these."
+    "word": "SUN",
+    "level": "A1",
+    "definition": "The star around which the Earth orbits, providing light and heat to the solar system.",
+    "fun_fact": "The Sun is so large that about 1.3 million Earths could fit inside it. Light from the Sun takes about 8 minutes to reach Earth.",
+    "hint": "It rises in the morning, sets at night, and gives us light and warmth."
+  },
+  {
+    "word": "MAP",
+    "level": "A1",
+    "definition": "A diagrammatic representation of an area of land or sea showing physical features, cities, roads, etc.",
+    "fun_fact": "The oldest known map is a Babylonian clay tablet from around 600 BCE. Today, Google Maps processes over 1 billion kilometres of directions every day.",
+    "hint": "Travelers use this to find their way — it shows roads, cities, and borders."
+  },
+  {
+    "word": "BOX",
+    "level": "A1",
+    "definition": "A container with a flat base and sides, typically square or rectangular and having a lid.",
+    "fun_fact": "The corrugated cardboard box was invented in 1856 in England. Today, over 90% of all products in the United States are shipped in cardboard boxes.",
+    "hint": "Amazon delivers things inside one of these — it's square and made of cardboard."
+  },
+  {
+    "word": "RUN",
+    "level": "A1",
+    "definition": "To move at a speed faster than a walk, never having both or all feet on the ground at the same time.",
+    "fun_fact": "The fastest human ever recorded is Usain Bolt, who reached 44.72 km/h in 2009. The word 'run' has over 645 meanings in English — the most of any word!",
+    "hint": "What you do when you're late for the bus — faster than walking."
+  },
+  {
+    "word": "CAKE",
+    "level": "A1",
+    "definition": "A sweet baked food made from a mixture of flour, fat, eggs, sugar, and other ingredients.",
+    "fun_fact": "The tradition of putting candles on birthday cakes comes from ancient Greece. People placed candles on cakes to make them glow like the moon as an offering to Artemis.",
+    "hint": "You eat this on your birthday — often with candles on top."
+  },
+  {
+    "word": "FISH",
+    "level": "A1",
+    "definition": "A limbless cold-blooded vertebrate animal with gills and fins living wholly in water.",
+    "fun_fact": "There are over 33,000 species of fish — more than all other vertebrates combined. The whale shark is the largest fish, growing up to 12 metres long.",
+    "hint": "It lives in water, has fins, and you might find it in an aquarium or on your dinner plate."
+  },
+  {
+    "word": "OPEN",
+    "level": "A1",
+    "definition": "Not closed or blocked; allowing access, passage, or a view.",
+    "fun_fact": "The phrase 'open sesame' from Ali Baba and the Forty Thieves is one of the most famous magic words in literature. Sesame plants actually burst open with a popping sound when ripe!",
+    "hint": "The opposite of closed — a door, a shop, or a window can be this."
+  },
+  {
+    "word": "PLAY",
+    "level": "A1",
+    "definition": "To engage in activity for enjoyment and recreation rather than a serious or practical purpose.",
+    "fun_fact": "Play is so important for development that the United Nations recognizes it as a fundamental right of every child. Even adult animals like dolphins and crows are known to play for fun.",
+    "hint": "What children do with toys — and what actors do on stage."
+  },
+  {
+    "word": "JUMP",
+    "level": "A2",
+    "definition": "To push oneself off a surface and into the air by using the muscles in one's legs and feet.",
+    "fun_fact": "The highest human jump ever recorded is 2.45 metres by Javier Sotomayor in 1993. Fleas can jump 200 times their own body length — equivalent to a human jumping over a 35-story building.",
+    "hint": "What a frog or a basketball player does — propelling upward off the ground."
+  },
+  {
+    "word": "RAIN",
+    "level": "A2",
+    "definition": "Water that falls from clouds as liquid droplets of various sizes.",
+    "fun_fact": "A single raindrop falls at about 9 km/h. The smell of rain on dry earth has a special name: 'petrichor', coined by Australian scientists in 1964.",
+    "hint": "It falls from the sky when clouds are grey — bring an umbrella!"
+  },
+  {
+    "word": "COLD",
+    "level": "A2",
+    "definition": "Of or at a low temperature; also a common illness causing a runny nose and sore throat.",
+    "fun_fact": "You don't catch a cold from being cold — you catch it from a virus. However, cold air can dry out nasal passages, making it slightly easier for viruses to enter.",
+    "hint": "The opposite of hot — also the name of a common winter illness."
+  },
+  {
+    "word": "FAST",
+    "level": "A2",
+    "definition": "Moving or capable of moving at high speed; also to abstain from eating for a period of time.",
+    "fun_fact": "The cheetah is the fastest land animal at 112 km/h. Interestingly, 'fast' meaning 'quick' and 'fast' meaning 'to not eat' are completely unrelated words — they just happen to look the same!",
+    "hint": "Usain Bolt is this on a track — also what you do during Ramadan."
+  },
+  {
+    "word": "LOUD",
+    "level": "A2",
+    "definition": "Producing or capable of producing much noise; easily audible.",
+    "fun_fact": "The loudest sound ever recorded was the 1883 eruption of Krakatoa — heard 4,800 kilometres away in Australia. A rocket launch can reach 180 decibels, enough to cause instant hearing damage.",
+    "hint": "A rock concert or a thunderstorm is this — the opposite of quiet."
+  },
+  {
+    "word": "DREAM",
+    "level": "A2",
+    "definition": "A series of thoughts, images, and sensations occurring in a person's mind during sleep; also a cherished ambition.",
+    "fun_fact": "You forget 90% of your dreams within 10 minutes of waking up. Blind people who were born sighted can see in their dreams, but those born blind experience dreams through their other senses.",
+    "hint": "What happens in your mind while you sleep — or your biggest wish for the future."
+  },
+  {
+    "word": "FRESH",
+    "level": "A2",
+    "definition": "Not previously known or used; new or different. Also: recently made or obtained; not stale.",
+    "fun_fact": "The phrase 'fresh as a daisy' comes from the fact that daisies close at night and reopen in the morning — always appearing new and bright. The word comes from Old English 'fersc', meaning not salt (of water).",
+    "hint": "A baker's bread straight from the oven is this — new and not stale."
+  },
+  {
+    "word": "BRAVE",
+    "level": "A2",
+    "definition": "Ready to face and endure danger or pain; showing courage.",
+    "fun_fact": "The word 'brave' comes from Italian 'bravo' (wild, savage) and Spanish 'bravo' (courageous). Interestingly, 'bravo' shouted at performers originally meant they were 'savagely good' — dangerously talented!",
+    "hint": "A firefighter running into a burning building is being this — the opposite of cowardly."
+  },
+  {
+    "word": "GLASS",
+    "level": "A2",
+    "definition": "A hard, brittle, typically transparent substance made by fusing sand with soda and lime.",
+    "fun_fact": "Glass is technically a supercooled liquid, not a solid — it flows extremely slowly over centuries. Ancient glass windows are thicker at the bottom because glassblowers placed them that way, not because of 'flowing'.",
+    "hint": "Windows are made of this — also what you drink water from."
+  },
+  {
+    "word": "HORSE",
+    "level": "A2",
+    "definition": "A large plant-eating domesticated mammal with solid hoofs and a flowing mane and tail, used for riding and to carry loads.",
+    "fun_fact": "Horses can sleep both standing up and lying down. They have the largest eyes of any land mammal, and can see nearly 360 degrees around them.",
+    "hint": "Cowboys ride this animal — it has a mane, hooves, and says 'neigh'."
+  },
+  {
+    "word": "BLEND",
+    "level": "B1",
+    "definition": "To mix and combine substances so that they become an integrated whole.",
+    "fun_fact": "The word 'blend' gave us 'blender', which was invented in 1922. Smoothies became popular in the 1960s in health food stores in California — long before Instagram made them famous.",
+    "hint": "What you do with ingredients in a smoothie maker — mix them together completely."
+  },
+  {
+    "word": "GRASP",
+    "level": "B1",
+    "definition": "To seize and hold firmly; also to understand a concept fully.",
+    "fun_fact": "Babies are born with a 'palmar grasp reflex' — they instinctively grip anything placed in their palm. This reflex disappears around 6 months but the word 'grasp' for understanding persisted into adult vocabulary.",
+    "hint": "You can physically do this to a rope — or mentally do this to a new idea."
   },
   {
     "word": "THRIVE",
+    "level": "B1",
     "definition": "To grow or develop well and vigorously; to be successful, healthy, or prosperous.",
     "fun_fact": "Plants, businesses, and people can all 'thrive'. Interestingly, 'thrive' comes from Old Norse 'þrífast', meaning to grasp or seize — suggesting success comes from actively grabbing opportunities!",
     "hint": "What a plant does when you give it water and sunlight — it doesn't just survive, it does this."
   },
   {
-    "word": "SHREWD",
-    "definition": "Having or showing sharp powers of judgment; clever in practical matters, especially in business.",
-    "fun_fact": "Originally meant 'wicked' or 'evil' in Middle English (from 'shrew', a scolding person). Over centuries, it shifted to mean 'sharp-minded'. Shakespeare used it to mean cunning in 'The Taming of the Shrew'!",
-    "hint": "A great negotiator or businessperson is often described as this — sharp and clever."
-  },
-  {
-    "word": "KINDLE",
-    "definition": "To light or set on fire; also used figuratively to arouse or inspire a feeling or emotion.",
-    "fun_fact": "Amazon named their e-reader 'Kindle' because books are meant to kindle (ignite) the imagination! The phrase 'kindle a flame of passion' is a classic metaphor in English literature.",
-    "hint": "You can use this word to start a campfire — or to start a feeling of excitement or love."
-  },
-  {
-    "word": "PONDER",
-    "definition": "To think about something carefully and for a long time before making a decision or reaching a conclusion.",
-    "fun_fact": "From Latin 'ponderare', meaning to weigh. When you ponder something, you're mentally 'weighing' the options. A similar origin gave us 'ponderous' (heavy) and even 'pound' (unit of weight)!",
-    "hint": "A philosopher sitting quietly with a furrowed brow is doing this — deep thinking."
-  },
-  {
     "word": "CLUMSY",
+    "level": "B1",
     "definition": "Moving or handling things in an awkward way; difficult to handle or use.",
     "fun_fact": "The word comes from a Scandinavian root meaning 'benumbed with cold' — when your hands are frozen, you naturally drop things! In British slang, someone very clumsy might be called a 'butterfingers'.",
     "hint": "Someone who always drops things and bumps into furniture is often described as this."
   },
   {
     "word": "VANISH",
+    "level": "B1",
     "definition": "To disappear suddenly and completely, often in a way that is difficult to explain.",
     "fun_fact": "Magicians 'vanish' objects during tricks. The word comes from Old French 'evanir', related to Latin 'evanescere' — the same root as 'evanescent', meaning something fleeting and short-lived.",
     "hint": "What a magician makes a rabbit do — or what your motivation does on a Monday morning."
   },
   {
+    "word": "LINGER",
+    "level": "B1",
+    "definition": "To stay in a place longer than necessary, typically because of a reluctance to leave.",
+    "fun_fact": "Often used to describe a pleasant smell or feeling that stays around: 'The smell of fresh bread lingered in the kitchen.'",
+    "hint": "What you do when you don't want to leave a place — you hang around."
+  },
+  {
+    "word": "FATHOM",
+    "level": "B1",
+    "definition": "To understand a difficult problem or situation after much thought. Also a unit of depth equal to 6 feet, used in measuring water.",
+    "fun_fact": "Originally a nautical term for measuring sea depth — sailors would use their outstretched arms (a 'fathom') to measure rope. Now it's common to say 'I can't fathom it!' meaning you can't understand something.",
+    "hint": "A sailor might measure depth with this word — or a philosopher might struggle to do this with a mystery."
+  },
+  {
+    "word": "SERENE",
+    "level": "B1",
+    "definition": "Calm, peaceful, and untroubled; tranquil.",
+    "fun_fact": "From Latin 'serenus' (clear, cloudless sky). A serene lake reflects the sky perfectly — hence the visual image of calm. 'Serenity Now!' became famous in the TV show Seinfeld, though it was used as a joke about forced calmness.",
+    "hint": "A mountain lake at dawn, perfectly still and peaceful — the scene is this."
+  },
+  {
+    "word": "KINDLE",
+    "level": "B1",
+    "definition": "To light or set on fire; also used figuratively to arouse or inspire a feeling or emotion.",
+    "fun_fact": "Amazon named their e-reader 'Kindle' because books are meant to kindle (ignite) the imagination! The phrase 'kindle a flame of passion' is a classic metaphor in English literature.",
+    "hint": "You can use this word to start a campfire — or to start a feeling of excitement or love."
+  },
+  {
+    "word": "PONDER",
+    "level": "B1",
+    "definition": "To think about something carefully and for a long time before making a decision or reaching a conclusion.",
+    "fun_fact": "From Latin 'ponderare', meaning to weigh. When you ponder something, you're mentally 'weighing' the options. A similar origin gave us 'ponderous' (heavy) and even 'pound' (unit of weight)!",
+    "hint": "A philosopher sitting quietly with a furrowed brow is doing this — deep thinking."
+  },
+  {
+    "word": "SHREWD",
+    "level": "B2",
+    "definition": "Having or showing sharp powers of judgment; clever in practical matters, especially in business.",
+    "fun_fact": "Originally meant 'wicked' or 'evil' in Middle English (from 'shrew', a scolding person). Over centuries, it shifted to mean 'sharp-minded'. Shakespeare used it to mean cunning in 'The Taming of the Shrew'!",
+    "hint": "A great negotiator or businessperson is often described as this — sharp and clever."
+  },
+  {
     "word": "GRUMBLE",
+    "level": "B2",
     "definition": "To complain about something in a bad-tempered way; also the low rumbling sound of thunder.",
     "fun_fact": "Onomatopoeic in origin — the word itself sounds like a low, discontented murmur. In Tolkien's 'The Hobbit', the dragon Smaug's roar is sometimes described with similar sounds. Grumpy, grumble, growl — all share that unhappy 'gr' sound!",
     "hint": "What someone does when they're unhappy but not angry enough to shout — they mutter and complain quietly."
   },
   {
     "word": "FRANTIC",
+    "level": "B2",
     "definition": "Wildly excited or uncontrolled because of fear, worry, or the urgency of a situation.",
     "fun_fact": "From Greek 'phrenitis' (inflammation of the brain), via Latin. The same root gives us 'frenzy'. When someone is frantic, their thoughts are racing like a 'frenzied' mind — an ancient medical concept made into an emotion word!",
     "hint": "How parents feel when they can't find their child in a supermarket — a panicked, frenzied feeling."
   },
   {
+    "word": "BLUNDER",
+    "level": "B2",
+    "definition": "A stupid or careless mistake, often made due to lack of attention or poor judgment.",
+    "fun_fact": "In chess, a 'blunder' is one of the worst moves a player can make, often losing a major piece. Chess engines will call your move a blunder if it costs you significant advantage!",
+    "hint": "Think of a clumsy person tripping and knocking everything over — that's a big one of these."
+  },
+  {
+    "word": "WITHER",
+    "level": "B2",
+    "definition": "To become dry and shriveled; to lose vitality, freshness, or importance; to cause to feel embarrassed.",
+    "fun_fact": "A 'withering look' is a famously powerful expression — a glance so cold and disapproving it makes you feel like a plant dying in the sun. Shakespeare used 'wither' dramatically in his plays to describe characters losing hope.",
+    "hint": "What flowers do when they haven't had water — they droop and shrink."
+  },
+  {
     "word": "BENIGN",
+    "level": "B2",
     "definition": "Gentle and kind; not harmful in effect. In medicine, a benign tumor is not cancerous.",
     "fun_fact": "Opposite of 'malign' (harmful). Both share the Latin root — 'bene' (good) vs 'male' (bad). You'll often hear doctors say 'the tumor is benign' as very good news. A benign dictator? That's an oxymoron!",
     "hint": "A kind, gentle person or a non-dangerous medical condition can both be called this."
   },
   {
-    "word": "SERENE",
-    "definition": "Calm, peaceful, and untroubled; tranquil.",
-    "fun_fact": "From Latin 'serenus' (clear, cloudless sky). A serene lake reflects the sky perfectly — hence the visual image of calm. 'Serenity Now!' became famous in the TV show Seinfeld, though it was used as a joke about forced calmness.",
-    "hint": "A mountain lake at dawn, perfectly still and peaceful — the scene is this."
+    "word": "EPHEMERAL",
+    "level": "C1",
+    "definition": "Lasting for a very short time; transitory by nature.",
+    "fun_fact": "From Greek 'ephemeros' — 'epi' (on) + 'hemera' (day), meaning 'lasting only a day'. The mayfly lives only 24 hours as an adult, making it the ultimate symbol of the ephemeral in nature.",
+    "hint": "Cherry blossoms that fall after just a few days are the perfect symbol of this quality — beautiful but brief."
   },
   {
-    "word": "JEOPARD",
-    "definition": "An archaic form of 'jeopardize': to put (someone or something) into a situation in which there is a danger of loss, harm, or failure.",
-    "fun_fact": "You'll recognize this from the famous US game show 'Jeopardy!' — where contestants risk their winnings. The word comes from Old French 'jeu parti' meaning a divided game — where the outcome is uncertain!",
-    "hint": "Think of the famous American game show where contestants answer questions and risk their score."
+    "word": "OBLIVION",
+    "level": "C1",
+    "definition": "The state of being unaware or unconscious of what is happening; the state of being forgotten, especially by the public.",
+    "fun_fact": "From Latin 'oblivisci' (to forget). The River Lethe in Greek mythology was the river of forgetfulness — drinking from it caused total oblivion of one's past life. The video game 'The Elder Scrolls IV: Oblivion' named itself after this concept.",
+    "hint": "A celebrity who was once famous but now is completely forgotten has slipped into this state."
   },
   {
-    "word": "WITHER",
-    "definition": "To become dry and shriveled; to lose vitality, freshness, or importance; to cause to feel embarrassed.",
-    "fun_fact": "A 'withering look' is a famously powerful expression — a glance so cold and disapproving it makes you feel like a plant dying in the sun. Shakespeare used 'wither' dramatically in his plays to describe characters losing hope.",
-    "hint": "What flowers do when they haven't had water — they droop and shrink."
+    "word": "TENACIOUS",
+    "level": "C1",
+    "definition": "Tending to keep a firm hold of something; clinging or adhering strongly; not readily relinquishing a position or principle.",
+    "fun_fact": "From Latin 'tenax' (holding fast), related to 'tenere' (to hold). The band 'Tenacious D' chose their name deliberately — Jack Black wanted a name that conveyed unstoppable rock energy. 'D' stands for 'Dick' or simply the musical note.",
+    "hint": "A bulldog that refuses to let go of a bone is the classic image of this quality — stubborn and persistent."
+  },
+  {
+    "word": "LACONIC",
+    "level": "C1",
+    "definition": "Using very few words; brief and concise in speech or expression.",
+    "fun_fact": "From the Laconians (Spartans of ancient Laconia), famous for extremely brief, blunt speech. When Philip of Macedon threatened 'If I enter Laconia, I will raze Sparta to the ground', the Spartans replied with just one word: 'If'.",
+    "hint": "A Spartan warrior's answer consisted of just one word — that style of speaking is described as this."
+  },
+  {
+    "word": "SERENDIPITY",
+    "level": "C2",
+    "definition": "The occurrence and development of events by chance in a happy or beneficial way.",
+    "fun_fact": "Coined by Horace Walpole in 1754, based on a Persian fairy tale 'The Three Princes of Serendip' (old name for Sri Lanka) who made fortunate discoveries by accident. The sticky note, penicillin, and microwave oven were all serendipitous inventions.",
+    "hint": "Finding a 20-euro note in a coat you haven't worn in a year — that's pure this."
+  },
+  {
+    "word": "VICARIOUS",
+    "level": "C1",
+    "definition": "Experienced in the imagination through the feelings or actions of another person.",
+    "fun_fact": "From Latin 'vicarius' (substitute). When you feel nervous watching someone else give a speech, or excited watching a sports game, that's vicarious emotion. Binge-watching TV shows is essentially organized vicarious living.",
+    "hint": "When you experience excitement by watching someone else's adventure — you feel it through them, not yourself."
+  },
+  {
+    "word": "EQUIVOCATE",
+    "level": "C2",
+    "definition": "To use ambiguous or unclear language so as to conceal the truth or avoid commitment.",
+    "fun_fact": "From Latin 'aequivocus' (of equal voice). Politicians are famous for equivocating — saying something that technically isn't a lie but deliberately misleads. Shakespeare's Porter in Macbeth delivers a famous speech about equivocation.",
+    "hint": "A politician who gives a 10-minute answer that never actually answers the question is doing this."
+  },
+  {
+    "word": "MELLIFLUOUS",
+    "level": "C2",
+    "definition": "Having a pleasant, smooth, rich, flowing sound; sweet or musical; pleasant to hear.",
+    "fun_fact": "From Latin 'mel' (honey) + 'fluere' (to flow) — literally 'flowing with honey'. Morgan Freeman's voice is often described as mellifluous. The word itself, when spoken aloud, demonstrates its own meaning.",
+    "hint": "Morgan Freeman's voice, a cello played beautifully, or a mountain stream — all could be described with this word meaning 'honey-flowing'."
+  },
+  {
+    "word": "OBFUSCATE",
+    "level": "C2",
+    "definition": "To render obscure, unclear, or unintelligible; to bewilder or confuse someone.",
+    "fun_fact": "From Latin 'ob' (over) + 'fuscare' (to darken). Lawyers and bureaucrats are sometimes accused of obfuscating simple truths with complex jargon. In computer science, 'obfuscated code' is deliberately written to be unreadable.",
+    "hint": "A deliberately confusing legal contract full of impossible jargon is designed to do this — to cloud understanding."
+  },
+  {
+    "word": "SYCOPHANT",
+    "level": "C2",
+    "definition": "A person who acts obsequiously toward someone important in order to gain advantage; a flatterer or yes-man.",
+    "fun_fact": "From Greek 'sykophantes' (informer). Originally meant someone who brought accusations about illegal fig exports in ancient Athens — it evolved to mean a false accuser, then a flatterer. Today's office 'yes-man' has ancient Greek roots.",
+    "hint": "The employee who laughs at every one of the boss's jokes even when they're terrible — purely to get a promotion."
+  },
+  {
+    "word": "LOQUACIOUS",
+    "level": "C2",
+    "definition": "Tending to talk a great deal; garrulous and talkative, often to an excessive degree.",
+    "fun_fact": "From Latin 'loquax', from 'loqui' (to talk). Its opposite is 'laconic'. Interestingly, 'eloquent' (speaking beautifully) shares the same Latin root 'loqui' — both are about talking, but one implies too much, the other implies excellence.",
+    "hint": "Your friend who never stops talking at dinner, covering 15 topics before the appetizer arrives — they are this."
   }
 ]

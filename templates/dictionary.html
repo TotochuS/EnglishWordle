@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LexiForge — My Dictionary</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <style>
+    .dict-hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+      padding: 32px 20px 24px;
+      text-align: center;
+    }
+
+    .dict-hero-icon { font-size: 36px; margin-bottom: 4px; }
+
+    .dict-hero-title {
+      font-family: var(--font-display);
+      font-size: 30px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      color: var(--text-primary);
+    }
+
+    .dict-hero-sub {
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    /* ── Filters ── */
+    .dict-controls {
+      width: 100%;
+      max-width: 700px;
+      padding: 0 20px 20px;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .search-input {
+      flex: 1;
+      min-width: 180px;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius);
+      padding: 10px 14px;
+      font-family: var(--font-mono);
+      font-size: 13px;
+      color: var(--text-primary);
+      outline: none;
+      transition: border-color var(--transition);
+    }
+
+    .search-input:focus { border-color: var(--accent); }
+    .search-input::placeholder { color: var(--text-muted); }
+
+    .filter-btn {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius);
+      padding: 10px 14px;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-secondary);
+      cursor: pointer;
+      transition: all var(--transition);
+      letter-spacing: 1px;
+    }
+
+    .filter-btn:hover, .filter-btn.active {
+      border-color: var(--accent);
+      color: var(--accent);
+      background: var(--accent-glow);
+    }
+
+    .clear-btn {
+      background: transparent;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 10px 14px;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all var(--transition);
+      letter-spacing: 1px;
+    }
+
+    .clear-btn:hover {
+      border-color: var(--red);
+      color: var(--red);
+    }
+
+    /* ── Stats bar ── */
+    .dict-stats {
+      width: 100%;
+      max-width: 700px;
+      padding: 0 20px 24px;
+      display: flex;
+      gap: 24px;
+    }
+
+    .stat-item {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .stat-value {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--accent);
+      font-family: var(--font-mono);
+    }
+
+    .stat-label {
+      font-size: 9px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    /* ── Word cards ── */
+    .dict-list {
+      width: 100%;
+      max-width: 700px;
+      padding: 0 20px 100px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .word-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 20px 24px;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 16px;
+      animation: fadeSlideIn 0.3s ease;
+      transition: border-color var(--transition);
+    }
+
+    .word-card:hover {
+      border-color: var(--border-light);
+    }
+
+    .card-badge {
+      font-family: var(--font-display);
+      font-size: 12px;
+      font-weight: 700;
+      width: 42px;
+      height: 42px;
+      border-radius: var(--radius);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      align-self: flex-start;
+      margin-top: 2px;
+    }
+
+    .card-body {}
+
+    .card-word {
+      font-family: var(--font-display);
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+
+    .card-definition {
+      font-size: 13px;
+      line-height: 1.65;
+      color: var(--text-secondary);
+      margin-bottom: 10px;
+    }
+
+    .card-funfact-toggle {
+      font-size: 11px;
+      color: var(--text-muted);
+      cursor: pointer;
+      letter-spacing: 1px;
+      background: none;
+      border: none;
+      padding: 0;
+      font-family: var(--font-mono);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: color var(--transition);
+    }
+
+    .card-funfact-toggle:hover { color: var(--accent); }
+
+    .card-funfact {
+      display: none;
+      margin-top: 10px;
+      font-size: 12px;
+      line-height: 1.6;
+      color: var(--text-muted);
+      padding: 10px 14px;
+      background: var(--bg-elevated);
+      border-radius: var(--radius);
+      border-left: 2px solid var(--accent-dim);
+    }
+
+    .card-funfact.open { display: block; animation: fadeSlideIn 0.2s ease; }
+
+    /* Empty state */
+    .empty-state {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 14px;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .empty-icon { font-size: 48px; opacity: 0.4; }
+
+    .empty-title {
+      font-family: var(--font-display);
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text-secondary);
+    }
+
+    .empty-sub {
+      font-size: 12px;
+      color: var(--text-muted);
+      max-width: 300px;
+      line-height: 1.6;
+      letter-spacing: 0.5px;
+    }
+
+    .btn-play-now {
+      background: var(--accent);
+      color: #0d0d0f;
+      border: none;
+      border-radius: var(--radius);
+      padding: 12px 28px;
+      font-family: var(--font-mono);
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      transition: all var(--transition);
+    }
+
+    .btn-play-now:hover { background: #ffd27f; transform: translateY(-1px); }
+
+    /* Level badge colors */
+    .badge-A1 { background: #1a3d2b; color: #4caf7d; }
+    .badge-A2 { background: #1e4533; color: #64c88c; }
+    .badge-B1 { background: #3d2e00; color: #f5a623; }
+    .badge-B2 { background: #4a3800; color: #ffb43c; }
+    .badge-C1 { background: #300a4a; color: #c078e8; }
+    .badge-C2 { background: #3d0808; color: #e05252; }
+
+    .sort-label {
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-left">
+      <a href="/" class="back-btn">← Menu</a>
+    </div>
+    <div class="header-center">
+      <span class="logo-icon">⬡</span>
+      <span class="logo-text">LexiForge</span>
+    </div>
+    <div class="header-right">
+      <a href="/play" class="nav-dict" style="position:relative;bottom:auto;right:auto;box-shadow:none;text-decoration:none;">
+        ▶ Play
+      </a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <div class="dict-hero">
+    <div class="dict-hero-icon">📖</div>
+    <h1 class="dict-hero-title">My Dictionary</h1>
+    <p class="dict-hero-sub">Words you've conquered</p>
+  </div>
+
+  <!-- STATS -->
+  <div class="dict-stats" id="dict-stats" style="display:none;">
+    <div class="stat-item">
+      <span class="stat-value" id="stat-total">0</span>
+      <span class="stat-label">Words learned</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-value" id="stat-levels">—</span>
+      <span class="stat-label">Levels covered</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-value" id="stat-longest">—</span>
+      <span class="stat-label">Longest word</span>
+    </div>
+  </div>
+
+  <!-- CONTROLS -->
+  <div class="dict-controls" id="dict-controls" style="display:none;">
+    <input type="text" class="search-input" id="search-input" placeholder="Search a word…" oninput="filterWords()" />
+    <span class="sort-label">Sort:</span>
+    <button class="filter-btn active" id="sort-alpha" onclick="setSortMode('alpha')">A→Z</button>
+    <button class="filter-btn" id="sort-level" onclick="setSortMode('level')">Level</button>
+    <button class="clear-btn" onclick="clearDictionary()">🗑 Clear all</button>
+  </div>
+
+  <!-- WORD LIST -->
+  <div class="dict-list" id="dict-list">
+    <!-- Loading -->
+    <div class="empty-state" id="loading-state">
+      <div class="empty-icon">⏳</div>
+      <div class="empty-title">Loading…</div>
+    </div>
+  </div>
+
+  <script>
+    const LEVEL_ORDER = ["A1","A2","B1","B2","C1","C2"];
+
+    let allWords = [];
+    let sortMode = "alpha";
+
+    async function loadDictionary() {
+      const resp = await fetch("/api/dictionary");
+      const data = await resp.json();
+      allWords = data.words;
+      render();
+    }
+
+    function render() {
+      const dictList = document.getElementById("dict-list");
+      const stats = document.getElementById("dict-stats");
+      const controls = document.getElementById("dict-controls");
+
+      if (allWords.length === 0) {
+        stats.style.display = "none";
+        controls.style.display = "none";
+        dictList.innerHTML = `
+          <div class="empty-state">
+            <div class="empty-icon">📖</div>
+            <div class="empty-title">Your dictionary is empty</div>
+            <p class="empty-sub">Go play and correctly guess words to add them here — with their definitions and fun facts!</p>
+            <a href="/" class="btn-play-now">Start Playing →</a>
+          </div>
+        `;
+        return;
+      }
+
+      stats.style.display = "flex";
+      controls.style.display = "flex";
+
+      // Stats
+      const levels = [...new Set(allWords.map(w => w.level))];
+      const longest = allWords.reduce((max, w) => w.word.length > max.word.length ? w : max, allWords[0]);
+      document.getElementById("stat-total").textContent = allWords.length;
+      document.getElementById("stat-levels").textContent = levels.join(", ");
+      document.getElementById("stat-longest").textContent = longest.word;
+
+      filterWords();
+    }
+
+    function filterWords() {
+      const query = document.getElementById("search-input").value.toLowerCase().trim();
+      let filtered = allWords.filter(w =>
+        w.word.toLowerCase().includes(query) ||
+        w.definition.toLowerCase().includes(query)
+      );
+
+      filtered = sortWords(filtered);
+      renderCards(filtered);
+    }
+
+    function sortWords(words) {
+      if (sortMode === "alpha") {
+        return [...words].sort((a,b) => a.word.localeCompare(b.word));
+      } else if (sortMode === "level") {
+        return [...words].sort((a,b) => LEVEL_ORDER.indexOf(a.level) - LEVEL_ORDER.indexOf(b.level));
+      }
+      return words;
+    }
+
+    function setSortMode(mode) {
+      sortMode = mode;
+      document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+      document.getElementById(`sort-${mode}`).classList.add("active");
+      filterWords();
+    }
+
+    function renderCards(words) {
+      const dictList = document.getElementById("dict-list");
+
+      if (words.length === 0) {
+        dictList.innerHTML = `
+          <div class="empty-state">
+            <div class="empty-icon">🔍</div>
+            <div class="empty-title">No results</div>
+            <p class="empty-sub">No words match your search.</p>
+          </div>
+        `;
+        return;
+      }
+
+      dictList.innerHTML = words.map((w, i) => `
+        <div class="word-card" style="animation-delay:${i * 40}ms">
+          <div class="card-badge badge-${w.level}">${w.level}</div>
+          <div class="card-body">
+            <div class="card-word">${w.word}</div>
+            <p class="card-definition">${w.definition}</p>
+            <button class="card-funfact-toggle" onclick="toggleFact(this)">
+              <span>✨</span> Show fun fact
+            </button>
+            <div class="card-funfact">${w.fun_fact}</div>
+          </div>
+        </div>
+      `).join("");
+    }
+
+    function toggleFact(btn) {
+      const fact = btn.nextElementSibling;
+      const open = fact.classList.toggle("open");
+      btn.innerHTML = open ? "<span>✨</span> Hide fun fact" : "<span>✨</span> Show fun fact";
+    }
+
+    async function clearDictionary() {
+      if (!confirm("Clear your entire dictionary? This cannot be undone.")) return;
+      await fetch("/api/dictionary/clear", { method: "POST" });
+      allWords = [];
+      render();
+    }
+
+    loadDictionary();
+  </script>
+</body>
+</html>
