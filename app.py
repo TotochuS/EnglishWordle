@@ -8,7 +8,7 @@ import random
 from flask import Flask, render_template, request, jsonify, session
 
 app = Flask(__name__)
-app.secret_key = "lexiforge_secret_key_2024_v2"
+app.secret_key = "wordlearn_secret_key_2024_v2"
 
 LEVEL_ORDER = ["A1", "A2", "B1", "B2", "C1", "C2"]
 
