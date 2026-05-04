@@ -1,5 +1,5 @@
 /**
- * script.js — LexiForge v2
+ * script.js — WordLearn v2
  * Lit les paramètres d'URL pour la longueur et le niveau,
  * gère la logique complète du jeu front-end.
  */

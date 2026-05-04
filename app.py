@@ -1,5 +1,5 @@
 """
-app.py - Backend Flask pour LexiForge — Wordle éducatif anglais
+app.py - Backend Flask pour WordLearn — Wordle éducatif anglais
 Gère les routes, la logique de jeu, les niveaux CECRL et le dictionnaire personnel
 """
 
