@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LexiForge — English Wordle</title>
+  <title>LexiForge — Play</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
@@ -13,11 +13,12 @@
   <!-- ══════════ HEADER ══════════ -->
   <header class="header">
     <div class="header-left">
-      <span class="logo-icon">⬡</span>
-      <span class="logo-text">LexiForge</span>
+      <a href="/" class="back-btn">← Menu</a>
     </div>
     <div class="header-center">
-      <span class="tagline">English Word Builder</span>
+      <span class="logo-icon">⬡</span>
+      <span class="logo-text">LexiForge</span>
+      <span class="level-chip" id="level-chip"></span>
     </div>
     <div class="header-right">
       <!-- Vies -->
@@ -51,14 +52,13 @@
       <div class="hint-text" id="hint-text"></div>
     </div>
 
-    <!-- Grille de jeu (générée dynamiquement) -->
+    <!-- Grille de jeu -->
     <div class="grid-wrapper">
       <div class="grid" id="game-grid"></div>
     </div>
 
     <!-- Clavier virtuel -->
     <div class="keyboard" id="keyboard">
-      <!-- Rangée 1 -->
       <div class="keyboard-row">
         <button class="key" data-key="Q">Q</button>
         <button class="key" data-key="W">W</button>
@@ -71,7 +71,6 @@
         <button class="key" data-key="O">O</button>
         <button class="key" data-key="P">P</button>
       </div>
-      <!-- Rangée 2 -->
       <div class="keyboard-row">
         <button class="key" data-key="A">A</button>
         <button class="key" data-key="S">S</button>
@@ -83,7 +82,6 @@
         <button class="key" data-key="K">K</button>
         <button class="key" data-key="L">L</button>
       </div>
-      <!-- Rangée 3 -->
       <div class="keyboard-row">
         <button class="key key-wide" data-key="ENTER">ENTER</button>
         <button class="key" data-key="Z">Z</button>
@@ -104,6 +102,7 @@
     <div class="modal" id="modal">
       <div class="modal-result" id="modal-result-icon"></div>
       <h2 class="modal-word" id="modal-word"></h2>
+      <div class="modal-level-badge" id="modal-level-badge"></div>
       <div class="modal-section">
         <span class="modal-label">📖 Definition</span>
         <p class="modal-text" id="modal-definition"></p>
@@ -113,9 +112,12 @@
         <p class="modal-text" id="modal-funfact"></p>
       </div>
       <div class="modal-score-earned" id="modal-score-earned"></div>
-      <button class="btn-next" id="btn-next" onclick="nextWord()">
-        Next Word →
-      </button>
+      <div class="modal-actions">
+        <button class="btn-next" id="btn-next" onclick="nextWord()">
+          Next Word →
+        </button>
+        <a href="/" class="btn-menu">← Back to Menu</a>
+      </div>
     </div>
   </div>
 
@@ -131,8 +133,14 @@
       <button class="btn-next" onclick="restartGame()">
         Play Again ↺
       </button>
+      <a href="/" class="btn-menu" style="text-align:center;">← Back to Menu</a>
     </div>
   </div>
+
+  <!-- Dict floating button -->
+  <a href="/dictionary" class="nav-dict-float">
+    📖 <span id="dict-float-count">0</span>
+  </a>
 
   <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
