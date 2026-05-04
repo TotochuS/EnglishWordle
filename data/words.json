@@ -327,5 +327,145 @@
     "definition": "Tending to talk a great deal; garrulous and talkative, often to an excessive degree.",
     "fun_fact": "From Latin 'loquax', from 'loqui' (to talk). Its opposite is 'laconic'. Interestingly, 'eloquent' (speaking beautifully) shares the same Latin root 'loqui' — both are about talking, but one implies too much, the other implies excellence.",
     "hint": "Your friend who never stops talking at dinner, covering 15 topics before the appetizer arrives — they are this."
+  },
+  {
+    "word": "SKY",
+    "level": "A1",
+    "definition": "The region of the atmosphere and outer space seen from the earth.",
+    "fun_fact": "The sky appears blue because of 'Rayleigh scattering'—Earth's atmosphere scatters shorter blue wavelengths more than longer red ones.",
+    "hint": "Look up during the day to see it blue, or at night to see stars."
+  },
+  {
+    "word": "ICE",
+    "level": "A1",
+    "definition": "Frozen water, a brittle transparent crystalline solid.",
+    "fun_fact": "Ice is actually less dense than liquid water, which is why ice cubes float in your drink. Most other substances sink when they freeze!",
+    "hint": "You put this in your drink to make it cold, or skate on it in winter."
+  },
+  {
+    "word": "BOOK",
+    "level": "A1",
+    "definition": "A written or printed work consisting of pages glued or sewn together along one side and bound in covers.",
+    "fun_fact": "The fear of running out of reading material is called 'abibliophobia'. The world's best-selling book is the Bible, followed by Don Quixote.",
+    "hint": "You read this to learn a story or information; it has many pages."
+  },
+  {
+    "word": "FIRE",
+    "level": "A1",
+    "definition": "Combustion or burning, in which substances combine chemically with oxygen from the air and typically give out bright light, heat, and smoke.",
+    "fun_fact": "Fire doesn't have a shadow because it is a source of light itself. If you shine a brighter light through a flame, you might see a faint shadow of the soot!",
+    "hint": "It's hot, it glows orange, and you use it to cook or stay warm."
+  },
+  {
+    "word": "BRAIN",
+    "level": "A2",
+    "definition": "An organ of soft nervous tissue contained in the skull of vertebrates, functioning as the coordinating center of sensation and intellectual and nervous activity.",
+    "fun_fact": "Your brain generates about 12-25 watts of electricity—enough to power a low-wattage LED light bulb!",
+    "hint": "The organ inside your head that you use to think and solve puzzles."
+  },
+  {
+    "word": "STORM",
+    "level": "A2",
+    "definition": "A violent disturbance of the atmosphere with strong winds and usually rain, thunder, lightning, or snow.",
+    "fun_fact": "At any given moment, there are about 2,000 thunderstorms happening on Earth. Jupiter has a storm called the Great Red Spot that has lasted for over 300 years.",
+    "hint": "When the weather gets very angry with loud thunder and bright lightning."
+  },
+  {
+    "word": "PUZZLE",
+    "level": "B1",
+    "definition": "A game, toy, or problem designed to test ingenuity or knowledge.",
+    "fun_fact": "The first jigsaw puzzle was created around 1760 by a mapmaker who pasted a map onto wood and cut out the countries to help children learn geography.",
+    "hint": "A game where you have to put pieces together or solve a difficult problem."
+  },
+  {
+    "word": "GHOST",
+    "level": "B1",
+    "definition": "An apparition of a dead person which is believed to appear or become manifest to the living.",
+    "fun_fact": "The belief in ghosts is one of the most common paranormal beliefs in the world, appearing in almost every culture's folklore since ancient times.",
+    "hint": "A spooky spirit that says 'Boo!' and is often depicted wearing a white sheet."
+  },
+  {
+    "word": "JOURNEY",
+    "level": "B1",
+    "definition": "An act of traveling from one place to another.",
+    "fun_fact": "The word comes from the Old French 'journée', which meant the distance one could travel in a single day.",
+    "hint": "A long trip to a far-off place."
+  },
+  {
+    "word": "WHISPER",
+    "level": "B1",
+    "definition": "Speak very softly using one's breath rather than one's throat, especially for the sake of secrecy.",
+    "fun_fact": "When you whisper, your vocal cords don't vibrate. This is why it's hard to tell the difference between 'p' and 'b' sounds in a whisper!",
+    "hint": "To talk very quietly so that other people cannot hear you."
+  },
+  {
+    "word": "VIBRANT",
+    "level": "B2",
+    "definition": "Full of energy and enthusiasm; or (of color) bright and striking.",
+    "fun_fact": "The human eye can see more shades of green than any other color because our ancestors needed to distinguish between different types of vegetation.",
+    "hint": "A city full of life or a very bright, bold color can be described as this."
+  },
+  {
+    "word": "OBSOLETE",
+    "level": "B2",
+    "definition": "No longer produced or used; out of date.",
+    "fun_fact": "Floppy disks and VHS tapes are classic examples of technology that became obsolete almost overnight once CDs and streaming arrived.",
+    "hint": "Something that is old-fashioned and no longer useful, like a typewriter."
+  },
+  {
+    "word": "SOLITUDE",
+    "level": "C1",
+    "definition": "The state or situation of being alone.",
+    "fun_fact": "There is a big difference between 'loneliness' (negative) and 'solitude' (positive). Many artists and writers seek solitude to spark their creativity.",
+    "hint": "Being alone by choice, often to find peace or think clearly."
+  },
+  {
+    "word": "ELOQUENT",
+    "level": "C1",
+    "definition": "Fluent or persuasive in speaking or writing.",
+    "fun_fact": "The root 'loqu' comes from Latin 'loqui', meaning 'to speak'. It's the same root found in 'loquacious' (talking too much)!",
+    "hint": "Someone who speaks very beautifully and can easily convince others with their words."
+  },
+  {
+    "word": "INTRICATE",
+    "level": "C1",
+    "definition": "Very complicated or detailed.",
+    "fun_fact": "The internal mechanisms of a mechanical watch are among the most intricate objects ever designed by humans, with hundreds of tiny moving parts.",
+    "hint": "A pattern or a plan that has many small, complex details."
+  },
+  {
+    "word": "RESILIENT",
+    "level": "C1",
+    "definition": "Able to withstand or recover quickly from difficult conditions.",
+    "fun_fact": "The 'Tardigrade' (or water bear) is the most resilient creature on Earth; it can survive in outer space, boiling water, and deep-sea pressure.",
+    "hint": "Someone who bounces back quickly after a failure or a hard time."
+  },
+  {
+    "word": "PARADIGM",
+    "level": "C2",
+    "definition": "A typical example or pattern of something; a model.",
+    "fun_fact": "The phrase 'paradigm shift' was made popular by Thomas Kuhn to describe a fundamental change in basic concepts of a scientific discipline.",
+    "hint": "A standard way of thinking about or doing something; a perfect model."
+  },
+  {
+    "word": "CACOPHONY",
+    "level": "C2",
+    "definition": "A harsh, discordant mixture of sounds.",
+    "fun_fact": "From Greek 'kakos' (bad) + 'phone' (sound). It's the literal opposite of 'euphony' (beautiful sound).",
+    "hint": "The sound of an orchestra tuning their instruments all at once—loud and unmusical."
+  },
+  {
+    "word": "SURREPTITIOUS",
+    "level": "C2",
+    "definition": "Kept secret, especially because it would not be approved of.",
+    "fun_fact": "The word comes from Latin 'surrepticius', meaning 'stolen' or 'furtive'. It's often used to describe a quick, secret glance at a phone during a meeting.",
+    "hint": "Doing something in a sneaky or stealthy way so no one notices."
+  },
+  {
+    "word": "QUINTESSENTIAL",
+    "level": "C2",
+    "definition": "Representing the most perfect or typical example of a quality or class.",
+    "fun_fact": "In ancient philosophy, the 'quintessence' was the fifth element (after earth, air, fire, water)—the pure substance that made up the stars.",
+    "hint": "The most classic or perfect example of something, like afternoon tea being this for British culture."
   }
 ]
