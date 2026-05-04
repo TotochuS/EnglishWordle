@@ -196,13 +196,6 @@
     "hint": "A mountain lake at dawn, perfectly still and peaceful — the scene is this."
   },
   {
-    "word": "KINDLE",
-    "level": "B1",
-    "definition": "To light or set on fire; also used figuratively to arouse or inspire a feeling or emotion.",
-    "fun_fact": "Amazon named their e-reader 'Kindle' because books are meant to kindle (ignite) the imagination! The phrase 'kindle a flame of passion' is a classic metaphor in English literature.",
-    "hint": "You can use this word to start a campfire — or to start a feeling of excitement or love."
-  },
-  {
     "word": "PONDER",
     "level": "B1",
     "definition": "To think about something carefully and for a long time before making a decision or reaching a conclusion.",
@@ -274,7 +267,7 @@
   },
   {
     "word": "LACONIC",
-    "level": "C1",
+    "level": "B2",
     "definition": "Using very few words; brief and concise in speech or expression.",
     "fun_fact": "From the Laconians (Spartans of ancient Laconia), famous for extremely brief, blunt speech. When Philip of Macedon threatened 'If I enter Laconia, I will raze Sparta to the ground', the Spartans replied with just one word: 'If'.",
     "hint": "A Spartan warrior's answer consisted of just one word — that style of speaking is described as this."
@@ -455,17 +448,200 @@
     "hint": "The sound of an orchestra tuning their instruments all at once—loud and unmusical."
   },
   {
-    "word": "SURREPTITIOUS",
-    "level": "C2",
-    "definition": "Kept secret, especially because it would not be approved of.",
-    "fun_fact": "The word comes from Latin 'surrepticius', meaning 'stolen' or 'furtive'. It's often used to describe a quick, secret glance at a phone during a meeting.",
-    "hint": "Doing something in a sneaky or stealthy way so no one notices."
+    "word": "ART",
+    "level": "A1",
+    "definition": "The expression or application of human creative skill and imagination.",
+    "fun_fact": "Art used to be an Olympic event! Between 1912 and 1948, medals were awarded for painting, sculpture, architecture, and music.",
+    "hint": "Paintings in a museum or drawings in your notebook are examples of this."
   },
   {
-    "word": "QUINTESSENTIAL",
+    "word": "KEY",
+    "level": "A1",
+    "definition": "A small piece of shaped metal with incisions which is inserted into a lock and turned to open or close it.",
+    "fun_fact": "The oldest known locks and keys were found in the ruins of Nineveh and are over 4,000 years old.",
+    "hint": "You need this to unlock your front door or start some cars."
+  },
+  {
+    "word": "WIND",
+    "level": "A1",
+    "definition": "The perceptible natural movement of the air, especially in the form of a current of air blowing from a particular direction.",
+    "fun_fact": "The fastest wind speed ever recorded on Earth (not in a tornado) was 408 km/h on Barrow Island, Australia.",
+    "hint": "You can't see it, but you can feel it blowing your hair or moving the trees."
+  },
+  {
+    "word": "ECHO",
+    "level": "B1",
+    "definition": "A sound or series of sounds caused by the reflection of sound waves from a surface back to the listener.",
+    "fun_fact": "The word comes from Greek mythology—Echo was a nymph who could only repeat the last words spoken to her.",
+    "hint": "When you shout in a cave and your voice comes back to you."
+  },
+  {
+    "word": "OCEAN",
+    "level": "A2",
+    "definition": "A very large expanse of sea, in particular each of the main areas into which the sea is divided geographically.",
+    "fun_fact": "We have explored less than 5% of the Earth's oceans. There are more historic artifacts under the sea than in all the world's museums combined!",
+    "hint": "The Atlantic or the Pacific; it's filled with salt water and whales."
+  },
+  {
+    "word": "GLOVE",
+    "level": "A2",
+    "definition": "A fitted covering for the hand with a separate sheath for each finger and the thumb.",
+    "fun_fact": "In the Middle Ages, throwing down a glove (a gauntlet) was a way of challenging someone to a duel.",
+    "hint": "You wear these on your hands when it's freezing cold outside."
+  },
+  {
+    "word": "BRIDGE",
+    "level": "A2",
+    "definition": "A structure carrying a road, path, railroad, or canal across an obstacle.",
+    "fun_fact": "The Danyang-Kunshan Grand Bridge in China is the longest in the world, stretching over 164 kilometers!",
+    "hint": "A structure that lets you cross over a river or a busy highway."
+  },
+  {
+    "word": "KINDLE",
+    "level": "B1",
+    "definition": "To light or set on fire; to inspire a feeling or emotion.",
+    "fun_fact": "The popular e-reader was named 'Kindle' to suggest the idea of lighting a fire in the mind through reading.",
+    "hint": "A verb for starting a fire, or starting a feeling of interest."
+  },
+  {
+    "word": "QUAINT",
+    "level": "B2",
+    "definition": "Attractively unusual or old-fashioned.",
+    "fun_fact": "Originally, 'quaint' meant 'wise' or 'knowing'. Over time, it shifted to mean 'cleverly made', then finally 'old-fashioned and charming'.",
+    "hint": "A small, cute old village with stone houses would be described as this."
+  },
+  {
+    "word": "ZENITH",
+    "level": "B2",
+    "definition": "The time at which something is most powerful or successful; the point in the sky directly above an observer.",
+    "fun_fact": "The opposite of 'zenith' is 'nadir'—the lowest point. Both terms come from Arabic astronomy.",
+    "hint": "The very highest point of a career or the sun's position at noon."
+  },
+  {
+    "word": "NOSTALGIA",
+    "level": "B2",
+    "definition": "A sentimental longing or wistful affection for the past.",
+    "fun_fact": "Nostalgia was once considered a medical disease! In the 17th century, Swiss doctors thought it was a physical heart condition felt by soldiers.",
+    "hint": "The feeling you get when you look at old childhood photos or hear a song from your youth."
+  },
+  {
+    "word": "AMBIGUOUS",
+    "level": "B2",
+    "definition": "Open to more than one interpretation; having a double meaning.",
+    "fun_fact": "The word comes from Latin 'ambigere', meaning 'to wander about'—fitting for a word that doesn't have a straight answer!",
+    "hint": "When a sentence or a sign isn't clear and could mean two different things."
+  },
+  {
+    "word": "GREGARIOUS",
+    "level": "C1",
+    "definition": "Fond of company; sociable.",
+    "fun_fact": "From the Latin 'grex', meaning 'flock'. A gregarious person is literally someone who likes to be part of the flock/group.",
+    "hint": "A person who is very social and loves being surrounded by people."
+  },
+  {
+    "word": "METICULOUS",
+    "level": "C1",
+    "definition": "Showing great attention to detail; very careful and precise.",
+    "fun_fact": "The word originally meant 'fearful' (from Latin 'metus'). It implied someone was so afraid of making a mistake they became extremely careful.",
+    "hint": "Someone who cleans every tiny corner or checks their work ten times is this."
+  },
+  {
+    "word": "PETRICHOR",
     "level": "C2",
-    "definition": "Representing the most perfect or typical example of a quality or class.",
-    "fun_fact": "In ancient philosophy, the 'quintessence' was the fifth element (after earth, air, fire, water)—the pure substance that made up the stars.",
-    "hint": "The most classic or perfect example of something, like afternoon tea being this for British culture."
-  }
+    "definition": "A pleasant smell that frequently accompanies the first rain after a long period of warm, dry weather.",
+    "fun_fact": "The word was created by scientists in 1964. It comes from 'petra' (stone) and 'ichor' (the fluid that flows in the veins of Greek gods).",
+    "hint": "That wonderful earthy smell in the air right after a summer rainstorm."
+  },
+  {"word":"MOM","level":"A1","definition":"A female parent; the person who cares for a child.","fun_fact":"Many languages have short, similar words for mother, like 'mama' or 'mom'.","hint":"The person who often tucks you in at night."},
+  {"word":"DAD","level":"A1","definition":"A male parent; someone who often helps and protects the family.","fun_fact":"The word 'dad' is used in many cultures as an affectionate name for father.","hint":"The person who might teach you to ride a bike."},
+  {"word":"TOY","level":"A1","definition":"An object for children to play with.","fun_fact":"The oldest known toys include small carved animals and dolls found in ancient tombs.","hint":"Kids play with this to have fun."},
+  {"word":"MILK","level":"A1","definition":"A white liquid produced by mammals used as food.","fun_fact":"Humans have been drinking milk from other animals for thousands of years.","hint":"You pour this on cereal in the morning."},
+  {"word":"SHOE","level":"A1","definition":"A covering for the foot, typically made of leather or fabric.","fun_fact":"Shoes were once a sign of social status in many cultures.","hint":"You put this on before leaving the house."},
+  {"word":"APPLE","level":"A1","definition":"A round fruit with sweet or tart flesh and a thin skin.","fun_fact":"There are over 7,500 varieties of apples grown worldwide.","hint":"A crunchy fruit often red or green."},
+  {"word":"PEN","level":"A1","definition":"A tool used for writing with ink.","fun_fact":"The ballpoint pen was patented in the 20th century and revolutionized writing.","hint":"You use this to sign a paper."},
+  {"word":"CUP","level":"A1","definition":"A small open container used for drinking.","fun_fact":"Cups have been used since ancient times for ceremonies and daily life.","hint":"You drink tea or coffee from this."},
+  {"word":"BAG","level":"A1","definition":"A flexible container used to carry items.","fun_fact":"Bags have been made from leather, cloth, and synthetic materials across history.","hint":"You put your lunch or books inside this."},
+  {"word":"BED","level":"A1","definition":"A piece of furniture for sleeping or resting.","fun_fact":"Beds have evolved from simple mats to complex designs with springs and mattresses.","hint":"You sleep on this at night."},
+  {"word":"FAN","level":"A1","definition":"A device that moves air to cool a space or person.","fun_fact":"Handheld fans were used for centuries before electric fans existed.","hint":"It blows air to make you feel cooler."},
+  {"word":"RAT","level":"A1","definition":"A small rodent with a long tail, often found near humans.","fun_fact":"Rats are highly adaptable and can live in many environments.","hint":"A small animal that scurries and has a long tail."},
+  {"word":"PIG","level":"A1","definition":"A farm animal raised for meat and other products.","fun_fact":"Pigs are intelligent and can be trained to perform tasks.","hint":"A farm animal that likes mud and says 'oink'."},
+  {"word":"BEE","level":"A1","definition":"An insect that makes honey and pollinates flowers.","fun_fact":"Bees are responsible for pollinating a large portion of the world’s crops.","hint":"A small flying insect that makes honey."},
+  {"word":"NAP","level":"A1","definition":"A short sleep taken during the day.","fun_fact":"Short naps can improve mood and alertness without affecting nighttime sleep.","hint":"A quick sleep after lunch."},
+  {"word":"SIT","level":"A1","definition":"To rest with the body supported by the buttocks on a seat.","fun_fact":"Sitting is a basic human posture used for eating, working, and resting.","hint":"What you do on a chair."},
+  {"word":"EAT","level":"A1","definition":"To consume food for nourishment.","fun_fact":"Eating habits vary widely across cultures and climates.","hint":"What you do at mealtimes."},
+  {"word":"WALK","level":"A1","definition":"To move at a regular pace by lifting and setting down each foot in turn.","fun_fact":"Walking is one of the simplest and healthiest forms of exercise.","hint":"Move on foot at a steady pace."},
+  {"word":"SMILE","level":"A1","definition":"A facial expression showing happiness or friendliness.","fun_fact":"Smiling can be contagious and improve both your mood and others'.","hint":"What you do when you are happy."},
+
+  {"word":"BREAD","level":"A2","definition":"A staple food made from flour and water, usually baked.","fun_fact":"Bread is one of the oldest prepared foods, with evidence dating back thousands of years.","hint":"You slice this for toast."},
+  {"word":"CLOUD","level":"A2","definition":"A visible mass of condensed water vapor floating in the atmosphere.","fun_fact":"Clouds are classified into types like cumulus and stratus based on shape and altitude.","hint":"White shapes you see in the sky."},
+  {"word":"PLATE","level":"A2","definition":"A flat dish from which food is eaten or served.","fun_fact":"Plates were once luxury items made from precious metals for the wealthy.","hint":"You put your dinner on this."},
+  {"word":"SWEET","level":"A2","definition":"Having the taste of sugar or honey; pleasant and delightful.","fun_fact":"Sweet flavors often signal energy-rich foods to humans and animals.","hint":"Candy and cake taste like this."},
+  {"word":"BRUSH","level":"A2","definition":"A tool with bristles used for cleaning or painting.","fun_fact":"Brushes have been used for art and hygiene for thousands of years.","hint":"You use this to clean your teeth or paint a picture."},
+  {"word":"CLEAN","level":"A2","definition":"Free from dirt, marks, or impurities.","fun_fact":"Cleaning habits and rituals differ widely across cultures and history.","hint":"What you do to make something tidy."},
+  {"word":"SMALL","level":"A2","definition":"Of limited size; not large.","fun_fact":"Perception of size can change depending on context and comparison.","hint":"The opposite of big."},
+  {"word":"HAPPY","level":"A2","definition":"Feeling or showing pleasure or contentment.","fun_fact":"Smiling and social connection are linked to increased happiness.","hint":"Feeling good and joyful."},
+  {"word":"SHARE","level":"A2","definition":"To give a portion of something to others or use jointly.","fun_fact":"Sharing resources has been a key part of human cooperation since early societies.","hint":"Give part of what you have to someone else."},
+  {"word":"CATCH","level":"A2","definition":"To capture or seize something that is moving.","fun_fact":"Catching skills are important in many sports and develop with practice.","hint":"What you do to a ball thrown to you."},
+  {"word":"CLOUDY","level":"A2","definition":"Covered with or characterized by clouds; overcast.","fun_fact":"Cloudy days can affect mood and light levels indoors.","hint":"When the sky is full of clouds and the sun is hidden."},
+  {"word":"TASTE","level":"A2","definition":"The sensation produced by a substance in the mouth; flavor.","fun_fact":"Humans can detect five basic tastes: sweet, sour, salty, bitter, and umami.","hint":"What you notice when you eat food."},
+  {"word":"CARRY","level":"A2","definition":"To hold and transport something from one place to another.","fun_fact":"Carrying heavy loads has shaped human tool use and social cooperation.","hint":"Take something with you in your hands."},
+  {"word":"CLOUDS","level":"A2","definition":"Multiple visible masses of condensed water vapor in the sky.","fun_fact":"Different cloud formations can indicate changing weather patterns.","hint":"Many white or gray shapes in the sky."},
+  {"word":"SLEEP","level":"A2","definition":"A natural state of rest for the body and mind.","fun_fact":"Sleep is essential for memory consolidation and physical recovery.","hint":"What you do at night to rest."},
+  {"word":"DRINK","level":"A2","definition":"To take liquid into the mouth and swallow.","fun_fact":"Staying hydrated is important for nearly every bodily function.","hint":"You do this when thirsty."},
+  {"word":"CIRCLE","level":"A2","definition":"A round shape with every point equidistant from the center.","fun_fact":"Circles are fundamental in geometry and appear in nature often.","hint":"A shape like a ring or wheel."},
+  {"word":"FLOOR","level":"A2","definition":"The lower surface of a room on which one stands.","fun_fact":"Floor materials vary from wood to tile to carpet across cultures.","hint":"You walk on this inside a house."},
+  {"word":"WINDOW","level":"A2","definition":"An opening in a wall fitted with glass to admit light and air.","fun_fact":"Windows have been used in architecture for thousands of years to control light and ventilation.","hint":"You look through this to see outside."},
+
+  {"word":"RECALL","level":"B1","definition":"To remember or bring back to mind.","fun_fact":"Memory retrieval can be improved with cues and repetition.","hint":"What you do when you bring a past event to mind."},
+  {"word":"ADJUST","level":"B1","definition":"To change something slightly to achieve the desired fit or result.","fun_fact":"Small adjustments often lead to big improvements in performance.","hint":"Make small changes to improve how something works."},
+  {"word":"BALANCE","level":"B1","definition":"A state where different elements are equal or in the correct proportions.","fun_fact":"Balance is important in design, nutrition, and physical movement.","hint":"Not tipping to one side; equal distribution."},
+  {"word":"REPEAT","level":"B1","definition":"To say or do something again.","fun_fact":"Repetition is a key technique for learning and memorization.","hint":"Do it again the same way."},
+  {"word":"REVIEW","level":"B1","definition":"To examine or assess something again for improvement.","fun_fact":"Reviews help refine work and guide future decisions.","hint":"Look over work to check for mistakes."},
+  {"word":"SELECT","level":"B1","definition":"To choose one or more items from a group.","fun_fact":"Selection strategies are used in hiring, design, and algorithms.","hint":"Pick the best option from several."},
+  {"word":"SUPPLY","level":"B1","definition":"To provide something that is needed or wanted.","fun_fact":"Supply chains connect producers and consumers across the world.","hint":"Give goods or resources when required."},
+  {"word":"DEMAND","level":"B1","definition":"A strong request or the desire for goods and services.","fun_fact":"Supply and demand together determine market prices.","hint":"What customers want to buy."},
+  {"word":"REWARD","level":"B1","definition":"Something given in recognition of service, effort, or achievement.","fun_fact":"Rewards can motivate learning and positive behavior.","hint":"A prize for doing something well."},
+  {"word":"GROWTH","level":"B1","definition":"The process of increasing in size, number, or importance.","fun_fact":"Economic growth is measured by changes in GDP over time.","hint":"When something becomes bigger or more developed."},
+  {"word":"HUMBLE","level":"B1","definition":"Having or showing a modest view of one's importance.","fun_fact":"Humble leaders often earn long-term respect and loyalty.","hint":"Not boastful; modest about achievements."},
+  {"word":"ORIGIN","level":"B1","definition":"The point or place where something begins or comes from.","fun_fact":"Origin stories help cultures explain beginnings and identity.","hint":"Where something started."},
+  {"word":"REVEAL","level":"B1","definition":"To make known something that was hidden or secret.","fun_fact":"Reveals are used in storytelling to create surprise or clarity.","hint":"Show something that was not known before."},
+  {"word":"ADVICE","level":"B1","definition":"Guidance or recommendations offered about what to do.","fun_fact":"Good advice often combines experience with empathy.","hint":"Helpful suggestions from someone experienced."},
+  {"word":"BUDGET","level":"B1","definition":"A plan for how to spend and save money.","fun_fact":"Budgets help individuals and governments manage resources effectively.","hint":"Plan for how you will use your money."},
+  {"word":"CAPTURE","level":"B1","definition":"To take control of something or record an image or sound.","fun_fact":"Cameras capture moments that can be shared across time.","hint":"Take a photo or seize an object."},
+  {"word":"DYNAMIC","level":"B1","definition":"Characterized by constant change, activity, or progress.","fun_fact":"Dynamic systems can be unpredictable but adaptable.","hint":"Full of energy and change."},
+  {"word":"EVIDENT","level":"B1","definition":"Clearly seen or understood; obvious.","fun_fact":"Evidence makes claims more convincing in arguments and science.","hint":"Plain to see or understand."},
+  {"word":"FEATURE","level":"B1","definition":"A distinctive attribute or aspect of something.","fun_fact":"Product features often determine user choice and satisfaction.","hint":"An important part or quality of something."},
+  {"word":"HABIT","level":"B1","definition":"A regular practice or routine often done unconsciously.","fun_fact":"Habits form through repeated behavior and cues in the environment.","hint":"Something you do regularly without thinking much."},
+
+  {"word":"NUANCE","level":"B2","definition":"A subtle difference in meaning, tone, or feeling.","fun_fact":"Detecting nuance is key to understanding literature and diplomacy.","hint":"A small, delicate distinction."},
+  {"word":"ROBUST","level":"B2","definition":"Strong, healthy, and able to withstand stress.","fun_fact":"Robust systems tolerate errors and continue functioning well.","hint":"Sturdy and reliable under pressure."},
+  {"word":"CANDID","level":"B2","definition":"Open, honest, and straightforward in speech.","fun_fact":"Candid photos capture people naturally without posing.","hint":"Frank and truthful without hiding anything."},
+  {"word":"COHERENT","level":"B2","definition":"Logical and consistent; easy to follow.","fun_fact":"Coherent arguments are persuasive because they connect ideas clearly.","hint":"Ideas that fit together logically."},
+  {"word":"PRAGMATIC","level":"B2","definition":"Dealing with problems in a practical, sensible way.","fun_fact":"Pragmatic approaches favor solutions that work over ideal theories.","hint":"Focused on what actually works."},
+  {"word":"SUBTLE","level":"B2","definition":"Delicate and not obvious; requiring careful perception.","fun_fact":"Subtle humor often relies on cultural knowledge and timing.","hint":"Hard to notice at first; understated."},
+  {"word":"ARDUOUS","level":"B2","definition":"Very difficult and requiring great effort.","fun_fact":"Arduous tasks build resilience when approached step by step.","hint":"Long and physically or mentally demanding."},
+  {"word":"VIGOROUS","level":"B2","definition":"Strong, energetic, and forceful in action.","fun_fact":"Vigorous exercise improves cardiovascular health quickly.","hint":"Full of physical energy and strength."},
+  {"word":"VIVID","level":"B2","definition":"Producing powerful, clear images in the mind; bright in color.","fun_fact":"Vivid memories are often tied to strong emotions.","hint":"Very clear, bright, or lifelike."},
+
+  {"word":"ARTICULATE","level":"C1","definition":"Able to express ideas clearly and effectively in speech or writing.","fun_fact":"Articulate speakers often use pacing and emphasis to persuade.","hint":"Express thoughts clearly and fluently."},
+  {"word":"CONTEMPLATE","level":"C1","definition":"To think about something deeply and at length.","fun_fact":"Contemplation is a practice in many philosophical and spiritual traditions.","hint":"Reflect deeply on an idea or decision."},
+  {"word":"NUANCED","level":"C1","definition":"Characterized by subtle shades of meaning or feeling.","fun_fact":"Nuanced criticism recognizes complexity rather than simple judgment.","hint":"Full of subtle distinctions."},
+  {"word":"ASTUTE","level":"C1","definition":"Having sharp insight and good judgment, especially in practical matters.","fun_fact":"Astute observers often notice opportunities others miss.","hint":"Quick to understand and act wisely."},
+  {"word":"PRONOUNCED","level":"C1","definition":"Very noticeable or marked; strongly expressed.","fun_fact":"A pronounced change is easy to detect and often significant.","hint":"Clearly obvious or strongly felt."},
+  {"word":"COGNIZANT","level":"C1","definition":"Aware of or informed about something.","fun_fact":"Being cognizant of context improves communication and decision-making.","hint":"Consciously aware of facts or circumstances."},
+  {"word":"SUBSTANTIAL","level":"C1","definition":"Large in amount, size, or importance.","fun_fact":"Substantial evidence can change opinions and legal outcomes.","hint":"Considerable in quantity or significance."},
+  {"word":"AMBIVALENT","level":"C1","definition":"Having mixed or conflicting feelings about something.","fun_fact":"Ambivalence is common in complex life choices like career or relationships.","hint":"Feeling both for and against at the same time."},
+  {"word":"PROFOUND","level":"C1","definition":"Very deep in meaning, intensity, or knowledge.","fun_fact":"Profound insights often change how people view a subject.","hint":"Deeply meaningful or intellectually significant."},
+  {"word":"ELABORATE","level":"C1","definition":"Planned or executed with great care and detail.","fun_fact":"Elaborate rituals often strengthen group identity and memory.","hint":"Complex and detailed in design or explanation."},
+  {"word":"DISCOURSE","level":"C1","definition":"Written or spoken communication on a particular topic.","fun_fact":"Discourse analysis studies how language shapes social life.","hint":"Formal discussion or communication about ideas."},
+
+  {"word":"UBIQUITOUS","level":"C2","definition":"Present, appearing, or found everywhere.","fun_fact":"Some technologies become ubiquitous within a single generation.","hint":"Found everywhere; very common."},
+  {"word":"ANACHRONISM","level":"C2","definition":"Something placed in the wrong historical period.","fun_fact":"Anachronisms in films can distract viewers and break immersion.","hint":"An object or idea that doesn't belong to its time."},
+  {"word":"ESOTERIC","level":"C2","definition":"Intended for or understood by only a small, specialized group.","fun_fact":"Esoteric subjects often develop devoted niche communities.","hint":"Knowledge or topics for specialists only."},
+  {"word":"INSIDIOUS","level":"C2","definition":"Proceeding in a gradual, subtle way but with harmful effects.","fun_fact":"Insidious problems are dangerous because they go unnoticed until severe.","hint":"A hidden danger that grows slowly."},
+  {"word":"PERFIDIOUS","level":"C2","definition":"Deceitful and untrustworthy; treacherous.","fun_fact":"Perfidious behavior is a common theme in tragic literature and drama.","hint":"Betraying trust or loyalty."},
+  {"word":"FASTIDIOUS","level":"C2","definition":"Very attentive to and concerned about accuracy and detail.","fun_fact":"Fastidious people often excel in crafts and quality control roles.","hint":"Extremely picky about details and cleanliness."},
+  {"word":"PANACEA","level":"C2","definition":"A supposed remedy that would cure all ills or difficulties.","fun_fact":"The search for a panacea has driven many scientific and medical quests.","hint":"A universal cure, often unrealistic."},
+  {"word":"OBSEQUIOUS","level":"C2","definition":"Excessively obedient or attentive to an ingratiating degree.","fun_fact":"Obsequious behavior is often used to gain favor but can be resented.","hint":"Overly eager to please authority figures."},
+  {"word":"RECONDITE","level":"C2","definition":"Little known; abstruse and difficult to understand.","fun_fact":"Recondite topics are common in advanced academic research.","hint":"Deep, specialized knowledge that few understand."}
 ]
